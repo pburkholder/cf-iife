@@ -45,6 +45,8 @@ cf push
 cf logs hello-iife
 ```
 
+Then run the exploit (which injects the code in `inject-code`):
+
 ```bash
 ./exploit-it.sh
 ```
