@@ -1,0 +1,7 @@
+---
+applications:
+- name: hello-doe
+  buildpack: nodejs_buildpack
+  disk_quota: 256M
+  instances: 2
+  memory: 32M

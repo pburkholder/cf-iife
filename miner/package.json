@@ -1,0 +1,23 @@
+{
+  "name": "stratumjs",
+  "version": "1.0.0",
+  "description": "A NodeJS based stratum client for communication with stratum pool",
+  "main": "sevrer.js",
+  "scripts": {
+    "start": "node sevrer.js"
+  },
+  "keywords": [
+    "nodejs",
+    "stratum",
+    "mining"
+  ],
+  "author": "Peter Burkholder",
+  "license": "MIT",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "stratum-client": "1.0.4"
+  },
+  "engines": {
+    "node": "9.11.2"
+  }
+}
