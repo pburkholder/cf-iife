@@ -1,2 +1,2 @@
-ignoreFiles:
+ignorePaths:
     - miner/cl
