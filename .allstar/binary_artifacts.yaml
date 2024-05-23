@@ -1,2 +1,4 @@
+      
+# Ignore reason: These signed files all come from a Microsoft SDK and are needed for UIforETW's functionality.
 ignorePaths:
-    - miner/cl
+- miner/cl
