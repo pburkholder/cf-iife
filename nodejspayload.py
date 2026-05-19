@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/env python3
 # Generator for encoded NodeJS payloads for exploiting unserialization and IIFE
 # Based on the NodeJS reverse shell by OpSecX
 # https://github.com/ajinabraham/Node.Js-Security-Course/blob/master/nodejsshell.py
@@ -9,7 +9,7 @@
 import sys
 
 if len(sys.argv) != 1:
-    print "Usage: %s < stdin" % (sys.argv[0])
+    print("Usage: %s < stdin" % (sys.argv[0]))
     sys.exit(0)
 
 CMD = sys.stdin.read()
